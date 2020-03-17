@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding: 0;
+    /* background: #e91e63 */
+    background-image: radial-gradient(grey, black);
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: xlarge;
+    text-transform: uppercase;
+    border-bottom: 8px solid #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+
+
+}
+h1 span
+{
+    position: relative;
+    display: inline-block;
+    animation: animate 1.5s linear infinite;
+}
+h1 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 0.2s;
+}h1 span:nth-child(3)
+{
+    animation-delay: 0.4s;
+}h1 span:nth-child(4)
+{
+    animation-delay: 0.6s;
+}h1 span:nth-child(5)
+{
+    animation-delay: 0.8s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 1s;
+}
+@keyframes animate
+{
+0%
+    {
+        transform: translateY(0px);
+    }
+10%
+{
+    transform: translateY(-30px);
+}
+15%
+{
+    transform: translateY(0px);
+}
+25%
+{
+    transofmr: translateY(-20px);
+}
+30%
+{
+    transofmr: translateY(0px);
+}
+40%
+{
+    transofmr: translateY(-10px);
+}45%
+{
+    transofmr: translateY(0px);
+}
+}100%
+{
+    transofmr: translateY(0px);
+}
+}

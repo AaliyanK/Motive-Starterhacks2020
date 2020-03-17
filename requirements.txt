@@ -1,0 +1,5 @@
+flask
+pprint
+requests
+googlemaps
+gunicorn
